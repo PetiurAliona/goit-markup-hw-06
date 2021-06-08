@@ -854,10 +854,10 @@ span {
   content: "";
   width: 16px;
   height: 15px;
-  border: 1px solid #212121;
+  border: 1.5px solid #212121;
   cursor: pointer;
   margin-right: 7px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
 }
 
 .modal-form-check:checked + .modal-form-checkbox-desc::before {
