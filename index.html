@@ -415,7 +415,25 @@
           </li>
         </ul>
       </div>
+
+    <div class="sign">
+      <form action="#" class="sign-form">
+        <p class="sign-title title-footer section-title1 ">Подпишитесь на рассылку</p>
+          
+        <div class="wrapper-sign-input-btn">
+        <input type="email" name="user-email" class="sign-form-input" placeholder="E-mail" required minlength="2">
+
+        <button type="submit" class="sign-form-btn"><span class="sign-form-btn-wrapper">Подписаться
+        <svg class="sign-icon">
+          <use href="./images/sprite.svg#icon-send"></use>
+        </svg>
+        </span>
+        </button>   
+        </div>
+      </form>
+
     </div>
+    </div>  
   </footer>
 
 <div class="backdrop is-hidden" data-modal>
@@ -453,7 +471,7 @@
         <label class="modal-form-field">
           Почта
           <span class="modal-form-input-wrapper">
-          <input type="text" name="user-mail" class="modal-form-input" required>
+          <input type="email" name="user-mail" class="modal-form-input" required>
           <svg class="modal-form-icon">
             <use href="./images/sprite.svg#icon-email-black"></use>
           </svg>
